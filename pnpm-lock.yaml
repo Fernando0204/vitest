@@ -890,8 +890,8 @@ importers:
         specifier: ^3.8.0
         version: 3.8.0
       tinybench:
-        specifier: ^2.9.0
-        version: 2.9.0
+        specifier: ^3.0.7
+        version: 3.0.7
       tinyexec:
         specifier: ^0.3.1
         version: 0.3.1
@@ -1248,7 +1248,7 @@ importers:
         version: 2.4.6
       happy-dom:
         specifier: latest
-        version: 15.11.6
+        version: 15.11.7
       istanbul-lib-coverage:
         specifier: ^3.2.0
         version: 3.2.0
@@ -1275,7 +1275,7 @@ importers:
         version: 3.5.12(typescript@5.6.3)
       webdriverio:
         specifier: latest
-        version: 9.4.0
+        version: 9.4.1
 
   test/dts-fixture:
     devDependencies:
@@ -1387,7 +1387,7 @@ importers:
         version: 9.3.3
       happy-dom:
         specifier: latest
-        version: 15.11.6
+        version: 15.11.7
       vitest:
         specifier: workspace:*
         version: link:../../packages/vitest
@@ -1420,7 +1420,7 @@ importers:
         version: link:../../packages/vitest
       webdriverio:
         specifier: latest
-        version: 9.4.0
+        version: 9.4.1
 
   test/workspaces:
     devDependencies:
@@ -6200,8 +6200,8 @@ packages:
     resolution: {integrity: sha512-AU6tzh3ADd28vSmXahgLsGyGGihXPGeKH0owDn9lhHolB6vIwEhag//T+TBzDoAcHhmVEwlxwSgtW1KZep+1MA==}
     engines: {node: '>=18.0.0'}
 
-  happy-dom@15.11.6:
-    resolution: {integrity: sha512-elX7iUTu+5+3b2+NGQc0L3eWyq9jKhuJJ4GpOMxxT/c2pg9O3L5H3ty2VECX0XXZgRmmRqXyOK8brA2hDI6LsQ==}
+  happy-dom@15.11.7:
+    resolution: {integrity: sha512-KyrFvnl+J9US63TEzwoiJOQzZBJY7KgBushJA8X61DMbNsH+2ONkDuLDnCnwUiPTF42tLoEmrPyoqbenVA5zrg==}
     engines: {node: '>=18.0.0'}
 
   has-bigints@1.0.2:
@@ -8691,8 +8691,9 @@ packages:
   tiny-glob@0.2.9:
     resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
 
-  tinybench@2.9.0:
-    resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
+  tinybench@3.0.7:
+    resolution: {integrity: sha512-soxV7Dp8eDKvPDv3c4qPJbUjLm1cZxFlsTaIH+FqalsazJzFrLG59dpiIN8OfgVcl11Hfj2b7apD73inCB67Mw==}
+    engines: {node: '>=18.0.0'}
 
   tinyexec@0.3.0:
     resolution: {integrity: sha512-tVGE0mVJPGb0chKhqmsoosjsS+qUnJVGJpZgsHYQcGoPlG3B51R3PouqTgEGH2Dc9jjFyOqOpix6ZHNMXp1FZg==}
@@ -9374,8 +9375,8 @@ packages:
     resolution: {integrity: sha512-jkslwUvOmqhFfc1E21Tz48NgYD8ykiR+09iWZlVLtx3P43k4jOfS+CfasvQ+6hJiVck+N5dXjYfg6zDjpkIFRw==}
     engines: {node: ^16.13 || >=18}
 
-  webdriver@9.4.0:
-    resolution: {integrity: sha512-DTwAF2t10wxLI6xgWo6KgMdSefCtZT/uJGjhDAaEfs/XB7WwIfHk8SU177f6Rco3+/KEwrIutt1/y8pNhHOn8w==}
+  webdriver@9.4.1:
+    resolution: {integrity: sha512-vFDdxMj/9W1+6jhpHSiRYfO8dix23HjAUtLx7aOv9ejEsntC0EzCIAftJ59YsF3Ppu184+FkdDVhnivpkZPTFw==}
     engines: {node: '>=18.20.0'}
 
   webdriverio@8.32.2:
@@ -9396,8 +9397,8 @@ packages:
       devtools:
         optional: true
 
-  webdriverio@9.4.0:
-    resolution: {integrity: sha512-qsQv61sebj0pxyFm5ZbRTh4HqF8szWwRrMsTXIVP4GOYgLi9rVD/GwkJqk60QoyTLPI1XJnFf0AxpK+mGJz1rg==}
+  webdriverio@9.4.1:
+    resolution: {integrity: sha512-XIPtRnxSES4CoxH2BfUY/6QzNgEgJEUjMYu7t7SJR8bVfbLRVXAA1ie9kM0MtdLs4oZ2Pr8rR8fqytsA1CjEWw==}
     engines: {node: '>=18.20.0'}
     peerDependencies:
       puppeteer-core: ^22.3.0
@@ -15231,7 +15232,7 @@ snapshots:
       webidl-conversions: 7.0.0
       whatwg-mimetype: 3.0.0
 
-  happy-dom@15.11.6:
+  happy-dom@15.11.7:
     dependencies:
       entities: 4.5.0
       webidl-conversions: 7.0.0
@@ -18100,7 +18101,7 @@ snapshots:
       globalyzer: 0.1.0
       globrex: 0.1.2
 
-  tinybench@2.9.0: {}
+  tinybench@3.0.7: {}
 
   tinyexec@0.3.0: {}
 
@@ -18868,7 +18869,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  webdriver@9.4.0:
+  webdriver@9.4.1:
     dependencies:
       '@types/node': 20.14.15
       '@types/ws': 8.5.13
@@ -18951,7 +18952,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  webdriverio@9.4.0:
+  webdriverio@9.4.1:
     dependencies:
       '@types/node': 20.14.15
       '@types/sinonjs__fake-timers': 8.1.5(patch_hash=ggdsr7nrdrzokhhihsihc2hdja)
@@ -18979,7 +18980,7 @@ snapshots:
       rgb2hex: 0.2.5
       serialize-error: 11.0.3
       urlpattern-polyfill: 10.0.0
-      webdriver: 9.4.0
+      webdriver: 9.4.1
     transitivePeerDependencies:
       - bufferutil
       - supports-color
